@@ -1,0 +1,1 @@
+((fapi_sdk.msg_header.type == 0x80) || (fapi_sdk.msg_header.type == 0x81) || (fapi_sdk.msg_header.type == 0x85)) && !(fapi_sdk.msg_data_UL_CONFIG_REQ.n_pdu == 0)
