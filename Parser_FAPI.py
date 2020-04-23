@@ -91,7 +91,6 @@ for i in range(0, len(linum)):
                     rntistring = lastline
                     w = 0
                     w = int(re.search(r'\d+', rntistring).group())
-                    # print(w)
                     oldfile = open("PDU_" + str(j) + "_OF_FRAME_" + str(i) + ".txt", "r+")
                     newfile = open("RNTI_" + str(w) + ".txt", 'a+')
                     newfile.write(oldfile.read())
